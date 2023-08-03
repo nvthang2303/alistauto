@@ -1,8 +1,5 @@
 {
   "force": false,
-  "address": "0.0.0.0",
-  "port": 5244,
-  "https_port": 5245,
   "site_url": "",
   "cdn": "",
   "jwt_secret": "SUNPy1eDpwFZwB4j",
@@ -19,11 +16,14 @@
     "ssl_mode": ""
   },
   "scheme": {
-    "disable_http": false,
-    "https": false,
+    "address": "0.0.0.0",
+    "http_port": 5244,
+    "https_port": -1,
     "force_https": false,
     "cert_file": "",
-    "key_file": ""
+    "key_file": "",
+    "unix_file": "",
+    "unix_file_perm": ""
   },
   "temp_dir": "data/temp",
   "bleve_dir": "data/bleve",
